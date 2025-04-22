@@ -1,95 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hemanth Boddupally | Cybersecurity Portfolio</title>
-    <style>
-        body {
-            background-color: #0f0f0f;
-            color: #00ffcc;
-            font-family: 'Courier New', Courier, monospace;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #1a1a1a;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 2px solid #00ffcc;
-        }
-        header img {
-            border-radius: 50%;
-            height: 120px;
-            width: 120px;
-            border: 3px solid #00ffcc;
-        }
-        h1 {
-            margin-top: 10px;
-        }
-        section {
-            padding: 40px;
-            border-bottom: 1px solid #333;
-        }
-        a {
-            color: #00ffcc;
-            text-decoration: none;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #00ffcc;
-            color: #000;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-        }
-    </style>
+    <title>Hemanth | AI Security Engineer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <img src="profile.jpg" alt="Hemanth's Profile Picture">
-        <h1>Hemanth Boddupally</h1>
-        <p>Aspiring Cybersecurity & AI Specialist | RHCSA Certified | CEH (Practical) in progress</p>
-    </header>
-
-    <div class="container">
-        <section>
-            <h2>About Me</h2>
-            <p>I am a passionate cybersecurity enthusiast and computer science undergrad at LPU. With a solid foundation in Linux, networking, and programming, I'm on a mission to integrate AI with cybersecurity. My journey includes RHCSA certification, ongoing CEH preparation, and hands-on experience with tools like TryHackMe, Hack The Box, and Power BI.</p>
-        </section>
-
-        <section>
-            <h2>Projects</h2>
-            <ul>
-                <li>🔍 Intrusion Detection System using AI</li>
-                <li>🛡️ Vulnerability Scanner (Python)</li>
-                <li>🔓 Password Cracker (Brute Force & Dictionary)</li>
-                <li>📊 Power BI Analytics Dashboard</li>
-                <li>💻 Fitness Website (HTML, CSS, JS)</li>
-                <li>🏦 Banking System (C Language)</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Certifications & Skills</h2>
-            <p><strong>Certifications:</strong> RHCSA, CEH (in progress), AWS Cloud (Free Tier)</p>
-            <p><strong>Skills:</strong> Linux, Python, Java, C++, Networking, AI Security, Power BI, Web Dev</p>
-        </section>
-
-        <section>
-            <h2>Resume</h2>
-            <a href="CV_12222985_HEMANTH_SPECIALIZED.pdf" class="btn" download>Download My Resume (PDF)</a>
-        </section>
-
-        <section>
-            <h2>Let's Connect</h2>
-            <p><a href="https://www.linkedin.com/in/hemanth-boddupally/">LinkedIn</a> | <a href="mailto:hemanthboddupally1@gmail.com">Email Me</a> | <a href="https://github.com/HemanthBoddupally">GitHub</a></p>
-        </section>
+    <div class="hero">
+        <canvas id="matrix"></canvas>
+        <div class="intro">
+            <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-pic">
+            <h1>Hemanth Boddupally</h1>
+            <h2><span id="typing"></span></h2>
+            <p>Aspiring AI Security Engineer | CSE @ LPU | HTB & THM enthusiast</p>
+            <div class="buttons">
+                <a href="#projects" class="btn">Projects</a>
+                <a href="CV_12222985_HEMANTH_GENERALIZED_Final.pdf" class="btn" target="_blank">Download Resume</a>
+            </div>
+        </div>
     </div>
+    <script src="assets/js/matrix.js"></script>
+    <script src="assets/js/typing.js"></script>
 </body>
 </html>
